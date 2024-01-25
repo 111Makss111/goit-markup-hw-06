@@ -154,13 +154,24 @@ img {
 .solutions-title {
   color: #fff;
   text-align: center;
-  font-size: 56px;
+font-size: 36px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   max-width: 496px;
+  text-transform: capitalize;
+
+
+
+
+
+
+
+
+
+
 }
 .solutions-btn {
   display: block;
@@ -834,4 +845,10 @@ img {
   .projects-text {
     font-weight: 400;
   }
+  .solutions-title {
+  font-size: 56px;
+  line-height: 1.07;
+  margin-bottom: 48px;
+
+}
 }
