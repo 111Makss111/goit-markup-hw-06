@@ -154,7 +154,7 @@ img {
 .solutions-title {
   color: #fff;
   text-align: center;
-font-size: 36px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -162,16 +162,6 @@ font-size: 36px;
   margin-bottom: 72px;
   max-width: 496px;
   text-transform: capitalize;
-
-
-
-
-
-
-
-
-
-
 }
 .solutions-btn {
   display: block;
@@ -423,8 +413,8 @@ font-size: 36px;
   display: flex;
 }
 .container-footer {
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
 }
 .footer-link {
   color: #4d5ae5;
@@ -435,7 +425,6 @@ font-size: 36px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-
   display: inline-block;
 }
 .footer-blue {
@@ -462,14 +451,13 @@ font-size: 36px;
   fill: #f4f4fd;
 }
 .footer-logo-container {
-  margin-right: 120px;
+  margin-bottom: 72px;
 }
 .footer-icon-container {
-  margin-right: 80px;
+  margin-bottom: 72px;
 }
 .footer-icon-contacts {
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 .footer-icon-link {
@@ -501,8 +489,7 @@ font-size: 36px;
   margin-bottom: 16px;
 }
 .footer-form {
-  display: flex;
-  gap: 24px;
+
 }
 .footer-input {
   width: 264px;
@@ -518,6 +505,7 @@ font-size: 36px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  margin-bottom: 16px;
 }
 .footer-input::placeholder {
   color: #fff;
@@ -761,7 +749,7 @@ font-size: 36px;
     gap: 24px;
   }
   /** ---------------------------------- */
-  .container-team{
+  .container-team {
     padding-left: 108px;
     padding-right: 108px;
   }
@@ -785,14 +773,13 @@ font-size: 36px;
   .projects-menu-list {
     width: calc((100% - 24px) / 2);
   }
-  .projects-text-content{
+  .projects-text-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
+  }
   .projects-text {
     margin-bottom: 0;
-
   }
 }
 
@@ -811,7 +798,7 @@ font-size: 36px;
   .team {
     padding: 120px 0;
   }
-    .container-team{
+  .container-team {
     padding-left: 0;
     padding-right: 0;
   }
@@ -854,9 +841,24 @@ font-size: 36px;
     font-weight: 400;
   }
   .solutions-title {
-  font-size: 56px;
-  line-height: 1.07;
-  margin-bottom: 48px;
-
-}
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
+  }
+  /* --------------------------------------- */
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-icon-container {
+    margin-right: 80px;
+    margin-left: 120px;
+  }
+  .footer-icon-contacts {
+    justify-content: center;
+  }
 }
