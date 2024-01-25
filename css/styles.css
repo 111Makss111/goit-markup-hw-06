@@ -761,6 +761,10 @@ font-size: 36px;
     gap: 24px;
   }
   /** ---------------------------------- */
+  .container-team{
+    padding-left: 108px;
+    padding-right: 108px;
+  }
   .team-menu-list {
     display: flex;
     gap: 64px 24px;
@@ -806,6 +810,10 @@ font-size: 36px;
   /** ---------------------------------- */
   .team {
     padding: 120px 0;
+  }
+    .container-team{
+    padding-left: 0;
+    padding-right: 0;
   }
   .team-menu-list {
     display: flex;
