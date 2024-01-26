@@ -130,7 +130,15 @@ img {
   color: #404bbf;
 }
 /* <!------------ solutions-------------> */
-
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mob.jpg);
+  }
+}
 .container-solutions {
   display: flex;
   flex-direction: column;
@@ -870,12 +878,4 @@ img {
     align-items: baseline;
   }
 }
-@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .solutions {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-mob.jpg);
-  }
-}
+
