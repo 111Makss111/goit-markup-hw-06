@@ -26,6 +26,12 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
 .container {
   width: 320px;
   margin: 0 auto;
@@ -35,9 +41,7 @@ ul {
 .header-logo-blue {
   color: #2e2f42;
 }
-img {
-  display: block;
-}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
@@ -81,7 +85,7 @@ img {
   left: 0;
   height: 4px;
   position: absolute;
-  bottom: -1px;
+  bottom: 1px;
   width: 100%;
 }
 .header-list-link {
@@ -92,7 +96,6 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   position: relative;
 }
 .header-list-link:hover {
@@ -110,8 +113,6 @@ img {
 }
 .header-contact-menu {
   display: flex;
-  gap: 40px;
-  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
@@ -151,7 +152,6 @@ img {
 .mob-close-btn {
   display: block;
   margin-left: auto;
-  margin-bottom: 24px;
   border: none;
   border-radius: 50%;
 }
@@ -164,8 +164,6 @@ img {
   flex-direction: column;
   gap: 40px;
 }
-.mob-menu-list {
-}
 .mob-menu-link {
   color: #2e2f42;
   font-size: 36px;
@@ -174,13 +172,13 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.mob-address {
+.mob-menu-link-blue {
+  color: #404bbf;
 }
 .mob-menu-address {
   display: flex;
-  align-items: flex-end;
-}
-.mob-address-list {
+  flex-direction: column;
+  gap: 24px;
 }
 .mob-address-link {
   color: #434455;
@@ -189,10 +187,14 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.mob-address-link-blue {
+  color: #404bbf;
+}
 .mob-icon-contacts {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  margin-bottom: 40px;
 }
 .mob-icon-link {
   width: 40px;
@@ -648,8 +650,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   border-radius: 4px;
   background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -840,12 +842,22 @@ img {
         url(../images/people-office-tab-2x.jpg);
     }
   }
+  .backdrop {
+    width: 288px;
+    min-height: 623px;
+  }
+  .mob-menu {
+    display: none;
+  }
   .header-menu {
     display: flex;
     gap: 40px;
   }
+  .header-contact-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
   .header-contacts {
-    font-style: normal;
     display: flex;
     margin-left: auto;
   }
@@ -920,6 +932,11 @@ img {
         ),
         url(../images/people-office-2x.jpg);
     }
+  }
+    .header-contact-menu {
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px;
   }
 
   .portfolio-list-item {
