@@ -257,6 +257,7 @@ img {
   padding: 96px 0;
 }
 .professional-team {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 
@@ -320,7 +321,6 @@ img {
   text-align: center;
 }
 .team-img {
-  margin-bottom: 32px;
   margin: 0 auto;
   width: 100%;
 }
