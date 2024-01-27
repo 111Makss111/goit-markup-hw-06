@@ -130,15 +130,7 @@ img {
   color: #404bbf;
 }
 /* <!------------ solutions-------------> */
-@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .solutions {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-mob.jpg);
-  }
-}
+
 .container-solutions {
   display: flex;
   flex-direction: column;
@@ -158,6 +150,15 @@ img {
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
+}
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mob.jpg);
+  }
 }
 .solutions-title {
   color: #fff;
@@ -444,7 +445,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   width: 264px;
 }
 .footer-social-text {
@@ -749,6 +749,15 @@ img {
   .container {
     width: 744px;
   }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab-2x.jpg);
+  }
+}
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
@@ -806,6 +815,15 @@ img {
   .container {
     width: 1158px;
   }
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2x.jpg);
+  }
+}
   .portfolio-list-item {
     width: calc((100% - 48px) / 3);
   }
@@ -864,18 +882,8 @@ img {
     margin-bottom: 48px;
   }
   /* --------------------------------------- */
-
-  .footer-icon-container {
-    margin-right: 80px;
-    margin-left: 120px;
-  }
-  .footer-icon-contacts {
-    display: flex;
-    justify-content: center;
-  }
   .container-footer {
     display: flex;
-    align-items: baseline;
+    gap: 80px;
   }
 }
-
