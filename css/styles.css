@@ -157,7 +157,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mob.jpg);
+      url(../images/people-office-mob-2x.jpg);
   }
 }
 .solutions-title {
@@ -749,7 +749,7 @@ img {
   .container {
     width: 744px;
   }
-  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .solutions {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -815,7 +815,7 @@ img {
   .container {
     width: 1158px;
   }
-    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .solutions {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
